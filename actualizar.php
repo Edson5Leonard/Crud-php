@@ -2,6 +2,8 @@
     include("conexion.php");
     $con=conectar();
 
+/*===========ACTUALIZAR==============*/
+
 $id=$_GET['id'];
 
 $sql="SELECT * FROM alumno WHERE cod_estudiante='$id'";
